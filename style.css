@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #4a3cda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.seccion-precios {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.titulo {
+    font-size: 16px; 
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 28px; 
+    margin: 10px 0 25px;
+}
+
+.tarjetas-precios {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    color: #333;
+    padding: 14px; 
+    border-radius: 10px; 
+    width: 180px; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.tarjeta-popular {
+    border: 2px solid #ffcc80;
+    margin-top: -22px; 
+    height: 318px; 
+}
+
+.etiqueta-popular {
+    position: absolute;
+    top: -1px;
+    background-color: pink;
+    color: #4a3cda;
+    padding: 8px 12px; 
+    font-size: 12px; 
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.emoji {
+    font-size: 40px; 
+}
+
+.nombre-plan {
+    font-size: 18px; 
+    margin: 12px 0;
+    color: #ffa500;
+}
+
+.precio {
+    font-size: 28px; 
+    color: #4a3cda;
+    margin: 12px 0;
+}
+
+.caracteristicas {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+    font-size: 14px; 
+    color: #777;
+}
+
+.button {
+    background-color: #4a3cda;
+    color: white;
+    bordern: solid;
+    padding: 12px 18px;
+    margin-top: 15px;
+}
+
+
